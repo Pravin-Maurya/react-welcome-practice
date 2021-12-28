@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #1e293b;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading-welcome {
+  font-family: 'Bree Serif';
+  font-size: 45px;
+  color: #f0bb03;
+  text-align: center;
+}
+@media screen and (min-width: 576px) {
+  .heading-welcome {
+    font-size: 55px;
+  }
+}
+.description {
+  font-family: 'Bree Serif';
+  font-size: 22px;
+  color: #ffffff;
+  text-align: center;
+}
+@media screen and (min-width: 576px) {
+  .description {
+    font-size: 28px;
+  }
+}
+.subscribe-button {
+  background-color: #ffffff;
+  font-family: 'Bree Serif';
+  color: #1e293b;
+  border-style: none;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
